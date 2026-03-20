@@ -1,175 +1,98 @@
-📊 Amazon Advertising Performance Audit
-Client Case Study — Search Query Level Analysis
-🧾 Executive Summary
+# Amazon Ads Performance Audit
 
-This analysis evaluates the performance of Amazon advertising campaigns at the search query level, with a focus on identifying:
+In this project, I analysed Amazon advertising performance at the search query level to identify opportunities to improve return on ad spend, reduce wasted budget, and highlight scalable keyword opportunities.
 
-High-performing keywords to scale
+The analysis focuses on search query efficiency, revenue concentration, conversion performance, and low-return spend.
 
-Inefficient spend to reduce
+The goal was to simulate the kind of keyword-level advertising audit that an Amazon seller might use to improve campaign profitability and budget allocation.
 
-Opportunities to improve overall return on ad spend (ROAS)
+## Featured Dashboard
 
-🔑 Key Metrics
+<img src="Amazon_Ads_Performance_Dashboard.png" width="1000">
 
-Total Revenue: £7.49M
+## Key Metrics
 
-Total Ad Spend: £5.19M
+- Total Revenue: **£7.49M**
+- Total Ad Spend: **£5.19M**
+- Average ROAS: **6.77**
+- Average Conversion Rate: **28%**
 
-Average ROAS: 6.77
+## Key Findings
 
-Average Conversion Rate: 28%
+### 1. Revenue is concentrated in a small number of keywords
+A limited set of search queries, such as **stocking stuffers**, **fidget toys**, and **baby toys**, generated a disproportionately large share of total revenue.
 
-🔍 Key Findings
-1. Revenue is highly concentrated in a small number of keywords
+This suggests strong performance in a few core keyword groups, but also creates a level of dependency on a small number of revenue drivers.
 
-A limited set of search queries (e.g. “stocking stuffers”, “fidget toys”) generate a disproportionately large share of total revenue.
+### 2. Diminishing returns appear at higher ad spend levels
+The relationship between ad spend and revenue was not fully linear. Higher-spend keywords generated strong revenue, but often with weaker efficiency.
 
-👉 This indicates strong product-market fit but also dependency on a small number of drivers.
+This suggests that increasing spend indiscriminately may reduce return on ad spend rather than improve overall profitability.
 
-2. Diminishing returns at higher ad spend levels
+### 3. High-efficiency keywords are currently underutilised
+Several keyword groups delivered strong ROAS at relatively low levels of spend, particularly in sensory and autism-related niches.
 
-The relationship between ad spend and revenue is non-linear, with evidence of diminishing returns at higher spend levels.
+These keywords appear to represent opportunities for controlled scaling, as they show evidence of strong customer intent and efficient ad performance.
 
-👉 Increasing budget indiscriminately is likely to reduce efficiency.
+### 4. Some spend is being wasted on low- or zero-return keywords
+A number of keywords generated little or no revenue despite receiving ad spend.
 
-3. High-efficiency keywords are underutilised
+This indicates budget leakage and highlights the need for tighter keyword optimisation and pausing underperforming terms.
 
-Several keywords demonstrate very high ROAS with relatively low ad spend, particularly within:
+### 5. Sensory and autism-related keywords show strong conversion potential
+Keywords linked to sensory toys, autism-related products, and specific niche product terms showed consistently strong conversion performance.
 
-Sensory toys
+This suggests a clear product-market fit within those segments and creates a strong case for expanding coverage in those keyword clusters.
 
-Autism-related products
+## Opportunities
 
-“Bunmo” product variations
+### Scale high-ROAS keywords
+Keywords with strong efficiency but relatively low spend should be considered for incremental budget increases and close monitoring.
 
-👉 These represent scalable opportunities with strong efficiency.
+### Expand high-converting niches
+Sensory toy and autism-related queries appear to align well with customer intent and may offer further growth opportunities through broader keyword targeting.
 
-4. Significant wasted spend on non-converting keywords
+### Optimise mid-tier performers
+Keywords with moderate spend and acceptable conversion rates may benefit from bid refinement, creative testing, or campaign restructuring.
 
-Multiple keywords show zero or near-zero revenue despite ad spend, including:
+## Risks
 
-“anti stress toys”
+### Inefficient high-spend keywords
+Some of the highest-spend keywords delivered relatively low ROAS, creating a risk that a large share of budget is being deployed inefficiently.
 
-“silicone toys for kids”
+### Revenue concentration
+Heavy reliance on a small number of keywords may expose performance to increased competition, CPC inflation, or shifts in seasonal demand.
 
-“chew sensory toys”
+### Ongoing non-converting spend
+Low-performing keywords with little or no return represent avoidable cost and reduce overall advertising efficiency.
 
-👉 These campaigns are currently eroding profitability.
+## Recommendations
 
-5. Strong conversion rates in niche segments
+1. Reduce spend on low-efficiency keywords, particularly those with weak ROAS or zero revenue.
+2. Reallocate budget towards high-ROAS keyword groups with stronger conversion potential.
+3. Scale high-performing niche keywords gradually and monitor efficiency closely during expansion.
+4. Expand keyword coverage around strong-performing sensory and autism-related product themes.
+5. Continue optimising high-revenue keywords to improve ROAS rather than simply increasing spend.
 
-Keywords related to:
+## Dashboard Overview
 
-Sensory toys
+The Power BI dashboard was designed to support fast decision-making by highlighting:
 
-Special needs / autism products
+- Top revenue-driving keywords
+- High ROAS keywords with meaningful spend
+- Wasted spend on low- and zero-return keywords
+- The relationship between ad spend and revenue across keyword groups
 
-show consistently high conversion rates.
+## Tools Used
 
-👉 This suggests a well-defined, high-intent customer segment.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Power BI
 
-📈 Opportunities
-🟢 Scale high-ROAS keywords
+## Conclusion
 
-Keywords with strong efficiency but low spend should be prioritised for growth.
+In this project, I identified a clear opportunity to improve advertising efficiency through better keyword targeting, tighter budget allocation, and more deliberate scaling of high-performing search terms.
 
-Increase budget incrementally
-
-Monitor performance closely to avoid saturation
-
-🟢 Double down on high-conversion niches
-
-Sensory and autism-related keywords show:
-
-High conversion rates
-
-Strong alignment with customer intent
-
-👉 Opportunity to expand keyword coverage in this segment.
-
-🟢 Optimise mid-tier performers
-
-Keywords with:
-
-Moderate spend
-
-Good conversion rates
-
-can be improved through:
-
-Bid adjustments
-
-Ad creative optimisation
-
-⚠️ Risks
-🔴 Inefficient high-spend keywords
-
-Some high-spend keywords operate at relatively low ROAS (~1.2–1.4).
-
-👉 Risk of diminishing returns and wasted budget
-
-🔴 Budget concentration
-
-Revenue reliance on a small number of keywords increases exposure to:
-
-Market changes
-
-Competition
-
-CPC inflation
-
-🔴 Non-converting spend
-
-Keywords with zero revenue represent pure cost leakage
-
-✅ Recommendations
-1. Reallocate budget towards efficiency
-
-Reduce spend on keywords with ROAS < 1.5
-
-Eliminate keywords with zero conversions
-
-2. Scale high-performing keywords
-
-Increase spend on top ROAS keywords by 20–30%
-
-Focus on sensory / Bunmo-related queries
-
-3. Implement controlled testing strategy
-
-Gradually increase budgets
-
-Monitor ROAS and conversion rate at each step
-
-Avoid aggressive scaling
-
-4. Expand high-performing keyword clusters
-
-Build out keyword variations around:
-
-Sensory toys
-
-Autism-related products
-
-High-converting niches
-
-5. Improve campaign efficiency
-
-Refine targeting
-
-Optimise bids
-
-Review ad creatives for underperforming keywords
-
-🧠 Conclusion
-
-This analysis highlights a clear opportunity to improve profitability through:
-
-Better budget allocation
-
-Scaling high-efficiency keywords
-
-Eliminating wasted spend
-
-The current campaign structure shows strong underlying performance, but significant gains can be achieved through optimisation rather than increased spend alone.
+Rather than increasing spend broadly, the results suggest that stronger performance is more likely to come from reallocating budget towards efficient keyword groups and reducing wasted spend on poor performers.
