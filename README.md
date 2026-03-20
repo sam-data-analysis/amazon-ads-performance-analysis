@@ -1,4 +1,4 @@
-# Amazon Ads Performance Audit
+# Amazon Ads Performance Analysis
 
 In this project, I analysed Amazon advertising performance at the search query level to identify opportunities to improve return on ad spend, reduce wasted budget, and highlight scalable keyword opportunities.
 
